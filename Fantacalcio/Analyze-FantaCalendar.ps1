@@ -2,8 +2,8 @@ Clear-Host
 
 #Input Variables
 
-$ExcelFileFullPath =  "C:\Users\stefano.viti\Downloads\Calendario_FantaCascina2025-26.xlsx"
-$TotGiornate = 1
+$ExcelFileFullPath =  (Get-Location).Path + "\Calendario_FantaCascina2025-26.xlsx"
+$TotGiornate = 38
 
 #Step A: Modify Excel Calendar File to get the desired format to compute data
 
